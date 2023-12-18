@@ -822,6 +822,7 @@ def app():
                     prediction_result = model.predict([new_data_record])[0]  # Get the predicted value
                     st.write(f'Predicted value: {prediction_result}')
             
+            st.markdown('***')
             st.markdown("Developed by Anass Boutslighoi. *Code from [Github](https://github.com/AnassBoutslighoi/Machine-Learning-Dashboard)*")
 
         
