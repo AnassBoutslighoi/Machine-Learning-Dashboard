@@ -4,4 +4,4 @@ streamlit
 plotly
 xgboost
 statsmodels
-pip install lightgbm
+LGBMRegressor
