@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-import htmlutils as ut
+import components.htmlutils as ut
 import plotly.express as px
 from sklearn.linear_model import Perceptron, RidgeClassifier, PassiveAggressiveClassifier
 from sklearn.svm import LinearSVC
