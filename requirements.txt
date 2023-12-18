@@ -4,4 +4,4 @@ streamlit
 plotly
 xgboost
 statsmodels
-LightGBM
+pip install lightgbm
