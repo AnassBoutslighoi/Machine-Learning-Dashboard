@@ -20,8 +20,8 @@ from xgboost import XGBRegressor
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
-from sklearn.metrics import mean_squared_error, r2_score 
-import LGBMRegressor
+from sklearn.metrics import mean_squared_error, r2_score
+from lightgbm import LGBMRegressor
 
 
 
