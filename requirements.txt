@@ -4,4 +4,4 @@ streamlit
 plotly
 xgboost
 statsmodels
-lightgbm
+lightgbm[scikit-learn]
