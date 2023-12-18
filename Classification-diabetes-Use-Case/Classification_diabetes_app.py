@@ -620,7 +620,7 @@ class Dashboard:
 
     
 def app(): 
-    file = ZipFile("Classification diabetes Use Case/Diabetes.zip")   
+    file = ZipFile("Classification-diabetes-Use-Case/Diabetes.zip")   
     if file is not None:
         with st.sidebar.expander('preprdocessing'):
             st.sidebar.title('Data Preprocessing')
