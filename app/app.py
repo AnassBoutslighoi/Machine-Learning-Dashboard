@@ -821,7 +821,10 @@ def app():
                 if predict_button:
                     prediction_result = model.predict([new_data_record])[0]  # Get the predicted value
                     st.write(f'Predicted value: {prediction_result}')
+            
+            st.markdown("Developed by Anass Boutslighoi. *Code from [Github](https://github.com/AnassBoutslighoi/Machine-Learning-Dashboard)*")
 
+        
     else:
         with st.expander("Usage guide"):
             st.title("Usage guide")
