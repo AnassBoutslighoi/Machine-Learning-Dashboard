@@ -4,4 +4,4 @@ streamlit
 plotly
 xgboost
 statsmodels
-lightgbm[scikit-learn]
+lightgbm==2.0.3
